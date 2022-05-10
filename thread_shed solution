@@ -150,3 +150,7 @@ def color_count(color):
     if thread_color == color:
       count += 1
   return count
+colors = ['red','yellow','green','white','black','blue','purple']
+
+for i in colors:
+  print("There was {} threads of color {} sold today".format(color_count(i),i))
